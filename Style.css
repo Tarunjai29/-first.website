@@ -1,0 +1,70 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* descendant selector  combinators */
+header h1{
+    font-weight: 500px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+nav{
+    position: relative;
+    top: 1rem;
+    right: 8rem;
+    width: 20rem;
+}
+
+/* class selector */
+.showcase{
+    width: 95vw;
+    margin: 1rem;
+}
+article{
+    display: flex;
+   
+}
+.container{
+    text-align: center;
+    margin: 2rem;
+    border: solid 3px cyan;
+    border-radius: 40px;
+    padding: 1rem;
+}
+ 
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* pseudo classes */
+
+a:hover{
+    color: crimson;
+}
